@@ -11,6 +11,8 @@ namespace WebApplication1.Controllers
         // GET: samp
         public ActionResult Index()
         {
+            ViewData["info"] = "Hi";
+
             ViewData["info"] = "Hi111";
 
             return View();
